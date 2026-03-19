@@ -46,6 +46,7 @@ public class PoolManager : MonoBehaviour
             if (!enemy.activeInHierarchy) 
             {
                 enemy.SetActive(true);
+                enemy.GetComponent<HealthPresenter>().Reset();
                 return enemy;
             }
         }

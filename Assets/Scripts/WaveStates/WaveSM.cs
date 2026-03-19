@@ -7,10 +7,10 @@ public class WaveSM : StateMachine
 {
  
 
-    [HideInInspector]
-    public NoRound noRoundState;
      [HideInInspector]
-    public BetweenRounds betweenRounds;
+     public NoRound noRoundState;
+     [HideInInspector]
+     public BetweenRounds betweenRounds;
      [HideInInspector]
      public BossRound bossRound;
      public GameObject finalEnemy;
